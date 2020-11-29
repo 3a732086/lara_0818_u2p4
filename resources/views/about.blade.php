@@ -1,17 +1,8 @@
 @extends('layouts.master')
-<!DOCTYPE html>
-<html lang="en">
+@section('title','Clean Blog - About')
 
-<head>
 
-  @section('title','Clean Blog - About')
-
-</head>
-
-<body>
 @section('content')
-  <!-- Navigation -->
-
 
   <!-- Page Header -->
   <header class="masthead" style="background-image: url('img/about-bg.jpg')">
@@ -41,14 +32,4 @@
 
   <hr>
 @endsection
-  <!-- Footer -->
 
-
-  <!-- Bootstrap core JavaScript -->
-
-
-  <!-- Custom scripts for this template -->
-
-</body>
-
-</html>

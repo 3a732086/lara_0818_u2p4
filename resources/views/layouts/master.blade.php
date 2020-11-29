@@ -34,13 +34,6 @@
 
 <!-- Main Content -->
 
-            <!-- Pager -->
-            <div class="clearfix">
-                <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
-            </div>
-        </div>
-    </div>
-</div>
 
 <hr>
 
@@ -53,6 +46,10 @@
 
 <!-- Custom scripts for this template -->
 <script src="{{asset('js/clean-blog.min.js')}}"></script>
+
+<!-- Contact Form JavaScript -->
+<script src="{{asset('js/jqBootstrapValidation.js')}}"></script>
+<script src="{{asset('js/contact_me.js')}}"></script>
 
 </body>
 
